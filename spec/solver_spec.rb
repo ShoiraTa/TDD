@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './solver'
 require 'yaml'
 
@@ -29,15 +31,15 @@ describe Solver do
   end
 
   it 'if diviseble by 3 return fizz' do
-    expect(solver.fizzbuzz(6)).to eq 'fizz'
+    expect(@solver.fizzbuzz(6)).to eq('fizz')
   end
   it 'if diviseble by 5 return buzz' do
-    expect(solver.fizzbuzz(5)).to eq 'buzz'
+    expect(@solver.fizzbuzz(5)).to eq('buzz')
   end
   it 'if diviseble by 3 and 5 return fizzbuzz' do
-    expect(solver.fizzbuzz(15)).to eq 'fizzbuzz'
+    expect(@solver.fizzbuzz(15)).to eq('fizzbuzz')
   end
   it 'if any other number, return' do
-    expect(solver.fizzbuzz(7)).to eq '7'
+    expect(@solver.fizzbuzz(7)).to eq('7')
   end
 end
