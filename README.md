@@ -21,7 +21,7 @@ To get a local copy up and running follow these simple example steps.
 
 - go to the directory that you want to clone the repository in.
 - right click and choose Git Bash here.
-- type "git clone https://github.com/ShoiraTa/OOP-library.git".
+- type "git clone https://github.com/ShoiraTa/TDD.git".
 - go to the repository folder in your command prompt.
 - run bundle install.
 
