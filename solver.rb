@@ -10,7 +10,9 @@ class Solver
     end
   end
 
-  def reverse(word); end
+  def reverse(word)
+  return word.reverse
+  end
 
   def fizzbuzz(n); end
 end
